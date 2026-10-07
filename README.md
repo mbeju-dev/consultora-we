@@ -1,6 +1,8 @@
-# MERV Consultora — sitio web
+# Consultora de RR. HH. — sitio web
 
-Next.js 16 (App Router, TypeScript) implementado a partir del mockup "Sitio web MERV Consultora".
+Next.js 16 (App Router, TypeScript) implementado a partir del mockup de sitio de consultora de RR. HH.
+
+El nombre de la consultora es genérico y se configura con `NEXT_PUBLIC_SITE_NAME`.
 
 ```bash
 npm install
@@ -20,4 +22,4 @@ npm run dev                  # http://localhost:3000
 
 ## Pendientes del diseño (placeholders)
 
-Logo, foto del equipo/oficina, dirección, número de WhatsApp, correo, redes sociales y política de privacidad.
+Nombre, logo, foto del equipo/oficina, dirección, número de WhatsApp, correo, redes sociales y política de privacidad.

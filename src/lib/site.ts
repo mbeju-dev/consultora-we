@@ -1,5 +1,5 @@
 export const SITE = {
-  nombre: "MERV Consultora",
+  nombre: process.env.NEXT_PUBLIC_SITE_NAME || "Consultora RH",
   ciudad: "Ciudad del Este",
   region: "Alto Paraná, Paraguay",
   whatsapp: (process.env.NEXT_PUBLIC_WHATSAPP ?? "").replace(/\D/g, ""),
